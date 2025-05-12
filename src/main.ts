@@ -16,9 +16,9 @@ async function start() {
         const allowedOrigins = [
           "http://localhost:8000",
           "http://localhost:3000",
-          "https://hospital.uz",
-          "https://api/hospital.uz",
-          "https://hospital.vercel.app",
+          "https://surovnoma.uz",
+          "https://api/surovnoma.uz",
+          "https://surovnoma.vercel.app",
         ];
         if (!origin || allowedOrigins.includes(origin)) {
           callback(null, true);
